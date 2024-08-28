@@ -1,0 +1,42 @@
+#container{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    background:linear-gradient(rgba(0, 79, 224, 0.5), rgba(243, 130, 0, 0.5));
+    margin:auto;
+    color: white;
+    border-radius: 20%;
+    min-height: 70vh;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(19, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30%;
+    min-height: 7vh;
+    justify-content: center;
+}
+button:hover{
+    background-color: hsl(19, 100%, 60%);
+}
+button:active{
+    background-color: hsl(19, 100%, 70%);
+}
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
